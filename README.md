@@ -15,13 +15,13 @@
   - **出水量**
     - `flow_waste`
   - **PH值**
-    - <a id="water-quality-ph">`pH_202_A`</a>
+    <a id="water-quality-ph"></a>- `pH_202_A`
   - **ORP值**
     - `ORP_1`
 
 ### 2. 中間COP硼廢水處理流程串接
 - **pH 調整槽 狀態**
-  - 是否對應上方 [PH 值](#1-水質監測-ph-值)?
+  - 是否對應上方 [PH 值](#water-quality-ph)?
 - **氧化反應槽是下述其中一個欄位嗎?**
     - `ORP_1`, 
     - `ORP_2`, 
