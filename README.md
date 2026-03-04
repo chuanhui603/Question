@@ -2,24 +2,26 @@
 
 ##  <a id="water-quality-ph"></a> 一、 流量表單 對應欄位 {#water-quality-ph}
 
+
 - **H2O2 即時加藥量**
-  - `amount_H2O2_P_209AB`
-  - `float`
+  - 欄位名稱: `amount_H2O2_P_209AB`
+  - 資料型態: `float`
 - **BaCl_2 即時加藥量**
-  - `amount_BaCl2_P_210AB`
-  - `float`
+  - 欄位名稱: `amount_BaCl2_P_210AB`
+  - 資料型態: `float`
 - **水質監測**
   - **進水硼濃度**
-    - `concentration_B`
-    - `float`
+    - 欄位名稱: `concentration_B`
+    - 資料型態: `float`
   - **出水硼濃度**
-    - 待確認
+    - 欄位名稱: 待確認
+    - 資料型態: 待確認
   - **進水量**
-    - `flow_FIT201`
-    - `float`
+    - 欄位名稱: `flow_FIT201`
+    - 資料型態: `float`
   - **出水量**
-    - `flow_waste`
-    - `float`
+    - 欄位名稱: `flow_waste`
+    - 資料型態: `float`
 
 ### 2. COP硼廢水處理流程 對應欄位
 
