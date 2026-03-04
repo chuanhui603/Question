@@ -25,27 +25,31 @@
 
 ### 2. COP硼廢水處理流程 對應欄位
 
+
 - **Raw Water 運作**
-  - `flow_FIT201` > 0
+  - 欄位名稱: `flow_FIT201` > 0
+  - 資料型態: `boolean`(條件判斷)
 - **pH 調整槽 狀態**
-  - `pH_202_A`
+  - 欄位名稱: `pH_202_A`
+  - 資料型態: `float`
 - **氧化反應槽 狀態**
-  - `ORP_1`
-- **氧化反應槽 狀態**：
-  - `sswitch_react_H2O2`
-  - Boolean
-- **化學沉降槽 狀態**：
-  - `switch_dose_BaCl2`
-  - Boolean
-- **凝集槽 狀態**：
-  - `switch_dose_Polymer`
-  - Boolean
-- **沉澱池 狀態**：
-  - `switch_circ_filter`
-  - Boolean
-- **出水 狀態**：
-  - `switch_filtrate_discharged`
-  - Boolean
+  - 欄位名稱: `ORP_1`
+  - 資料型態: `float`
+- **氧化反應槽 狀態**
+  - 欄位名稱: `sswitch_react_H2O2`
+  - 資料型態: `boolean`
+- **化學沉降槽 狀態**
+  - 欄位名稱: `switch_dose_BaCl2`
+  - 資料型態: `boolean`
+- **凝集槽 狀態**
+  - 欄位名稱: `switch_dose_Polymer`
+  - 資料型態: `boolean`
+- **沉澱池 狀態**
+  - 欄位名稱: `switch_circ_filter`
+  - 資料型態: `boolean`
+- **出水 狀態**
+  - 欄位名稱: `switch_filtrate_discharged`
+  - 資料型態: `boolean`
 
 ### 3. 統計長條圖 對應欄位
 
